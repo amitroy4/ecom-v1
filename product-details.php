@@ -105,10 +105,9 @@
       cursor: pointer;
    }
 
-   .tagsocial li :hover{
+   .tagsocial li :hover {
       color: blue;
    }
-
 </style>
 <div class="product-details-area ptb-100">
    <div class="container">
@@ -350,35 +349,35 @@
                      </div>
                   </ul>
                   <div class="social-links">
-                  <ul>
-                  <li class="fs-5 m-2"><i class="fa-solid fa-share-nodes"></i></li>
-                     <li>
-                        <a href="https://www.facebook.com/" target="_blank">
-                           <i class="bx bxl-facebook"></i>
-                        </a>
-                     </li>
-                     <li>
-                        <a href="https://www.twitter.com/" target="_blank">
-                           <i class="bx bxl-twitter"></i>
-                        </a>
-                     </li>
-                     <li>
-                        <a href="https://www.linkedin.com/" target="_blank">
-                           <i class="bx bxl-linkedin"></i>
-                        </a>
-                     </li>
-                     <li>
-                        <a href="https://www.skype.com/" target="_blank">
-                           <i class="bx bxl-skype"></i>
-                        </a>
-                     </li>
-                     <li>
-                        <a href="https://www.youtube.com/" target="_blank">
-                           <i class="bx bxl-youtube"></i>
-                        </a>
-                     </li>
-                  </ul>
-               </div>
+                     <ul>
+                        <li class="fs-5 m-2"><i class="fa-solid fa-share-nodes"></i></li>
+                        <li>
+                           <a href="https://www.facebook.com/" target="_blank">
+                              <i class="bx bxl-facebook"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://www.twitter.com/" target="_blank">
+                              <i class="bx bxl-twitter"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://www.linkedin.com/" target="_blank">
+                              <i class="bx bxl-linkedin"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://www.skype.com/" target="_blank">
+                              <i class="bx bxl-skype"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://www.youtube.com/" target="_blank">
+                              <i class="bx bxl-youtube"></i>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
 
                </div>
             </div>
@@ -626,6 +625,20 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                </div>
                <div class="modal-body">
+
+                  <div class="col-12 d-flex pt-2 pb-4">
+                     <div class="col-4 d-flex justify-content-center">
+                        <img src="assets/images/p4.avif" alt="Image" style="width: 170px;">
+                     </div>
+                     <div class="col-8 d-flex flex-column justify-content-center">
+                        <h4>White Comfy Stool</h4>
+                        <p class="mb-0 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="pt-0 pb-1">
+                           <span class="text-primary fs-4">৳400.00</span>
+                           <span class="ps-2 text-secondary-emphasis"><del>৳600.00</del></span>
+                        </div>
+                     </div>
+                  </div>
                   <ul class="nav nav-tabs" id="myTab" role="tablist">
                      <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
@@ -642,170 +655,91 @@
                      <div class="tab-pane fade show active mt-4 mb-4" id="home-tab-pane" role="tabpanel"
                         aria-labelledby="home-tab" tabindex="0">
                         <div class="row">
-                           <div class="col-12 d-flex">
-                              <div class="col-4">
-                                 <img src="assets/images/p4.avif" alt="Image" style="width: 200px;">
-                              </div>
-                              <div class="col-8 d-flex align-items-end">
-                                 <div class="item">
-                                    <div>
-                                       <div class="attr-detail attr-color mt-20 mb-20">
-                                          <strong class="color-size mr-10">Color</strong>
-                                          <ul class="list-filter color-filter">
-                                             <li>
-                                                <div href="#" class="color-option bg-black">
-                                                   <span class=""></span>
-                                                </div>
-                                                <p class="color-stock-preview position-absolute"
-                                                   style="font-size: 12px;">11
-                                                   Items Left
-                                                </p>
-                                             </li>
-                                             <li>
-                                                <div href="#" class="color-option bg-primary">
-                                                   <span class=""></span>
-                                                </div>
-                                                <p class="color-stock-preview position-absolute"
-                                                   style="font-size: 12px; display:none;">11
-                                                   Items Left</p>
-                                             </li>
-                                             <li>
-                                                <div href="#" class="color-option bg-secondary">
-                                                   <span class=""></span>
-                                                </div>
-                                                <p class="color-stock-preview position-absolute"
-                                                   style="font-size: 12px; display:none;">11
-                                                   Items Left</p>
-                                             </li>
-                                             <li>
-                                                <div href="#" class="color-option bg-info">
-                                                   <span class=""></span>
-                                                </div>
-                                                <p class="color-stock-preview position-absolute"
-                                                   style="font-size: 12px; display:none;">11
-                                                   Items Left</p>
-                                             </li>
-                                          </ul>
-                                       </div>
-                                    </div>
-                                    <div>
-                                       <div class="attr-detail attr-size mt-4">
-                                          <strong class="color-size mr-10">Size</strong>
-                                          <ul class="list-filter size-filter font-small" id="sizeOptions"
-                                             wire:ignore="">
-                                             <li class="" wire:ignore="">
-                                                <div class="size-option" data-size="S" wire:click="itemSize(40)">
-                                                   <span>S</span>
-                                                </div>
-                                                <p wire:ignore="" class="size-stock-preview position-absolute"
-                                                   style="display: none; font-size: 12px;"> 2 Items</p>
-                                             </li>
-                                             <li class="" wire:ignore="">
-                                                <div class="size-option" data-size="M" wire:click="itemSize(41)">
-                                                   <span>M</span>
-                                                </div>
-                                                <p wire:ignore="" class="size-stock-preview position-absolute"
-                                                   style="display: none; font-size: 12px;"> 2 Items</p>
-                                             </li>
-                                             <li class="" wire:ignore="">
-                                                <div class="size-option" data-size="L" wire:click="itemSize(42)">
-                                                   <span>L</span>
-                                                </div>
-                                                <p wire:ignore="" class="size-stock-preview position-absolute"
-                                                   style="display: none; font-size: 12px;"> 4 Items</p>
-                                             </li>
-                                             <li class="" wire:ignore="">
-                                                <div class="size-option" data-size="XL" disabled=""
-                                                   wire:click="itemSize(43)">
-                                                   <span>XL</span>
-                                                </div>
-                                                <p wire:ignore="" class="size-stock-preview position-absolute"
-                                                   style="display: none; font-size: 12px;"> 0 Items</p>
-                                             </li>
-                                             <li class="" wire:ignore="">
-                                                <div class="size-option" data-size="XXL" disabled=""
-                                                   wire:click="itemSize(43)">
-                                                   <span>XXL</span>
-                                                </div>
-                                                <p wire:ignore="" class="size-stock-preview position-absolute"
-                                                   style="display: none; font-size: 12px;"> 0 Items</p>
-                                             </li>
-                                             <li class="" wire:ignore="">
-                                                <div class="size-option" data-size="XXXL" disabled=""
-                                                   wire:click="itemSize(43)">
-                                                   <span>XXXL</span>
-                                                </div>
-                                                <p wire:ignore="" class="size-stock-preview position-absolute"
-                                                   style="display: none; font-size: 12px;"> 0 Items</p>
-                                             </li>
-                                          </ul>
-                                       </div>
-                                    </div>
-                                 </div>
+                           <div class="col-12 d-flex align-items-center">
+                              <div class="col-12 table-responsive">
+                                 <table class="table table-bordered table-striped text-center">
+                                    <thead class="table-dark">
+                                       <tr>
+                                          <th>Select</th>
+                                          <th>Size</th>
+                                          <th>Length (inches)</th>
+                                          <th>Chest (inches)</th>
+                                          <th>Shoulder (inches)</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody id="sizeTable">
+                                       <tr>
+                                          <td>
+                                             <input type="radio" name="size" class="form-check-input"
+                                                onclick="highlightRow(this)">
+                                          </td>
+                                          <td>S</td>
+                                          <td>26</td>
+                                          <td>34-36</td>
+                                          <td>18</td>
+                                       </tr>
+                                       <tr>
+                                          <td>
+                                             <input type="radio" name="size" class="form-check-input"
+                                                onclick="highlightRow(this)">
+                                          </td>
+                                          <td>M</td>
+                                          <td>27</td>
+                                          <td>38-40</td>
+                                          <td>20</td>
+                                       </tr>
+                                       <tr>
+                                          <td>
+                                             <input type="radio" name="size" class="form-check-input"
+                                                onclick="highlightRow(this)">
+                                          </td>
+                                          <td>L</td>
+                                          <td>28</td>
+                                          <td>42-44</td>
+                                          <td>22</td>
+                                       </tr>
+                                       <tr>
+                                          <td>
+                                             <input type="radio" name="size" class="form-check-input"
+                                                onclick="highlightRow(this)">
+                                          </td>
+                                          <td>XL</td>
+                                          <td>29</td>
+                                          <td>46-48</td>
+                                          <td>24</td>
+                                       </tr>
+                                       <tr>
+                                          <td>
+                                             <input type="radio" name="size" class="form-check-input"
+                                                onclick="highlightRow(this)">
+                                          </td>
+                                          <td>XXL</td>
+                                          <td>30</td>
+                                          <td>50-52</td>
+                                          <td>26</td>
+                                       </tr>
+                                       <tr>
+                                          <td>
+                                             <input type="radio" name="size" class="form-check-input"
+                                                onclick="highlightRow(this)">
+                                          </td>
+                                          <td>XXXL</td>
+                                          <td>31</td>
+                                          <td>54-56</td>
+                                          <td>28</td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
                               </div>
                            </div>
                         </div>
-
-
                      </div>
-                     <div class="tab-pane fade mt-4 mb-4" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
-                        tabindex="0">
+                     <div class="tab-pane fade mt-4 mb-4" id="profile-tab-pane" role="tabpanel"
+                        aria-labelledby="profile-tab" tabindex="0">
                         <div class="row">
                            <div class="col-12 d-flex">
-                              <div class="col-7 d-flex align-items-center">
-                                 <div class="table-responsive">
-                                    <table class="table table-bordered table-striped text-center">
-                                       <thead class="table-dark">
-                                          <tr>
-                                             <th>Size</th>
-                                             <th>Length (inches)</th>
-                                             <th>Chest (inches)</th>
-                                             <th>Shoulder (inches)</th>
-                                          </tr>
-                                       </thead>
-                                       <tbody>
-                                          <tr>
-                                             <td>S</td>
-                                             <td>26</td>
-                                             <td>34-36</td>
-                                             <td>18</td>
-                                          </tr>
-                                          <tr>
-                                             <td>M</td>
-                                             <td>27</td>
-                                             <td>38-40</td>
-                                             <td>20</td>
-                                          </tr>
-                                          <tr>
-                                             <td>L</td>
-                                             <td>28</td>
-                                             <td>42-44</td>
-                                             <td>22</td>
-                                          </tr>
-                                          <tr>
-                                             <td>XL</td>
-                                             <td>29</td>
-                                             <td>46-48</td>
-                                             <td>24</td>
-                                          </tr>
-                                          <tr>
-                                             <td>XXL</td>
-                                             <td>30</td>
-                                             <td>50-52</td>
-                                             <td>26</td>
-                                          </tr>
-                                          <tr>
-                                             <td>XXXL</td>
-                                             <td>31</td>
-                                             <td>54-56</td>
-                                             <td>28</td>
-                                          </tr>
-                                       </tbody>
-                                    </table>
-                                 </div>
-                              </div>
-                              <div class="col-5 d-flex justify-content-center">
-                                 <img src="assets/images/measurement-men.jpg" alt="Image" style="width: 300px;">
+                              <div class="col-12 d-flex justify-content-center">
+                                 <img src="assets/images/measurement-men.jpg" alt="Image">
                               </div>
                            </div>
                         </div>

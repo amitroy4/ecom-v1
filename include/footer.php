@@ -271,6 +271,18 @@
 });
 
 </script>
+
+<script>
+   function highlightRow(radio) {
+      // Remove bold class from all rows
+      const rows = document.querySelectorAll("#sizeTable tr");
+      rows.forEach(row => row.classList.remove("table-active", "fw-bold"));
+      
+      // Add bold class to the selected row
+      const selectedRow = radio.closest("tr");
+      selectedRow.classList.add("table-active", "fw-bold");
+   }
+</script>
    
    </body>
 </html>
