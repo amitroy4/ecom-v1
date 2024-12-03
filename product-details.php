@@ -349,18 +349,36 @@
                         </div>
                      </div>
                   </ul>
-
-                  <ul class=" tag tagsocial text-grey-5 mt-20 d-flex text-items-center">
-                     <li class="fs-5 m-2"><i class="fa-solid fa-share-nodes"></i></li>
-                     <li class="social-facebook fs-5 m-2"><a href="#" target="_blank"><i
-                              class="fa-brands fa-facebook-f"></i></a></li>
-                     <li class="social-twitter fs-5 m-2"><a href="#" target="_blank"><i
-                              class="fa-brands fa-twitter"></i></a></li>
-                     <li class="social-instagram fs-5 m-2"><a href="#" target="_blank"><i
-                              class="fa-brands fa-instagram"></i></a></li>
-                     <li class="social-linkedin fs-5 m-2"><a href="#" target="_blank"><i
-                              class="fa-brands fa-linkedin"></i></a></li>
+                  <div class="social-links">
+                  <ul>
+                  <li class="fs-5 m-2"><i class="fa-solid fa-share-nodes"></i></li>
+                     <li>
+                        <a href="https://www.facebook.com/" target="_blank">
+                           <i class="bx bxl-facebook"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="https://www.twitter.com/" target="_blank">
+                           <i class="bx bxl-twitter"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="https://www.linkedin.com/" target="_blank">
+                           <i class="bx bxl-linkedin"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="https://www.skype.com/" target="_blank">
+                           <i class="bx bxl-skype"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="https://www.youtube.com/" target="_blank">
+                           <i class="bx bxl-youtube"></i>
+                        </a>
+                     </li>
                   </ul>
+               </div>
 
                </div>
             </div>

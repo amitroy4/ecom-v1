@@ -158,13 +158,13 @@
                         <a href="about-us.php" class="nav-link">About Us</a>
                      </li>
                      <li class="nav-item">
-                        <a href="shop.html" class="nav-link">Shop</a>
+                        <a href="shop.php" class="nav-link">Shop</a>
                      </li>
                      <li class="nav-item">
-                        <a href="about.html" class="nav-link">FAQ's</a>
+                        <a href="faq.php" class="nav-link">FAQ's</a>
                      </li>
                      <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Contact Us</a>
+                        <a href="contact-us.php" class="nav-link">Contact Us</a>
                      </li>
                   </ul>
                   <div class="side-nav">
@@ -200,30 +200,14 @@
    <!-- End Navbar -->
 
    <style>
-      table,
-      tr {
-         border-bottom: 2px slid red;
-      }
 
-      table,
-      tr,
-      td {
-         background-color: transparent !important;
-         border-bottom-width: 0 !important;
-      }
-      .small-text {
-    font-size: 0.8rem; /* Adjust to your preference */
-   }
-   .number input {
-      font-size: 0.8rem;
-      text-align: center;
-   }
 
    </style>
    <!-- Start Cart -->
    <div class="modal fade" id="cartModal" tabindex="1" aria-labelledby="cartModalLabel" aria-hidden="true">
+         
       <div class="modal-dialog modal-lg modal-dialog-scrollable position-fixed top-0 end-0"
-         style="width: 400px; height: 100vh; margin:0; ">
+         style="height: 100vh; margin:0; ">
          <div class="modal-content" style="height: 100%; border-radius: 0 0 0 10px; background-color: #F5F5F5;">
             <div class="modal-header">
                <h1 class="modal-title fs-5 d-flex justify-content-center" id="cartModalLabel"><i
@@ -231,95 +215,103 @@
                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body" style="max-height: calc(100% - 130px); overflow-y: auto;">
-               <!-- Cart items go here -->
-               <div id="cartItems">
-                  <div class="table-responsive">
-                     <table class="table text-center">
-                        <tbody>
-                           <tr class=" d-flex align-items-center border-bottom">
-                              <td>1</td>
-                              <td><img src="assets/images/p1.avif" alt="Image" style="width: 70px;"></td>
-                              <td>
-                                 <span>Product 1</span><br>
-                                 <span class="small">
-                                    <ul class="number bg-transparent ">
-                                       <li style="width: 110px;">
-                                          <span class="minus text-secondary "><b>-</b></span>
-                                          <input type="text " value="1"
-                                             class="form-control form-control-sm d-inline-block" style="width:40px;">
-                                          <span class="plus text-secondary"><b>+</b></span>
-                                       </li>
-                                    </ul>
-                                 </span>
-
-                              </td>
-                              <td>Price: $10</td>
-                              <td class="d-flex just"><i class="fa-solid fa-trash text-danger" style="cursor: pointer;"></i></td>
-                           </tr>
-                           <tr class=" d-flex align-items-center border-bottom">
-                              <td>2</td>
-                              <td><img src="assets/images/p2.avif" alt="Image" style="width: 70px;"></td>
-                              <td>
-                                 <span>Product 2</span><br>
-                                 <span class="small">
-                                    <ul class="number bg-transparent ">
-                                       <li style="width: 110px;">
-                                          <span class="minus text-secondary "><b>-</b></span>
-                                          <input type="text " value="1"
-                                             class="form-control form-control-sm d-inline-block" style="width:40px;">
-                                          <span class="plus text-secondary"><b>+</b></span>
-                                       </li>
-                                    </ul>
-                                 </span>
-
-                              </td>
-                              <td>Price: ৳10</td>
-                              <td class="d-flex just"><i class="fa-solid fa-trash text-danger" style="cursor: pointer;"></i></td>
-                           </tr>
-                           <tr class=" d-flex align-items-center border-bottom">
-                              <td>3</td>
-                              <td><img src="assets/images/p3.avif" alt="Image" style="width: 70px;"></td>
-                              <td>
-                                 <span>Product 3</span><br>
-                                 <span class="small">
-                                    <ul class="number bg-transparent ">
-                                       <li style="width: 110px;">
-                                          <span class="minus text-secondary"><b>-</b></span>
-                                          <input type="text " value="1"
-                                             class="form-control form-control-sm d-inline-block" style="width:40px;">
-                                          <span class="plus text-secondary"><b>+</b></span>
-                                       </li>
-                                    </ul>
-                                 </span>
-
-                              </td>
-                              <td>Price: ৳10</td>
-                              <td class="d-flex just"><i class="fa-solid fa-trash text-danger" style="cursor: pointer;"></i></td>
-                           </tr>
-                           <tr class=" d-flex align-items-center border-bottom">
-                              <td>4</td>
-                              <td><img src="assets/images/p4.avif" alt="Image" style="width: 70px;"></td>
-                              <td>
-                                 <span>Product 4</span><br>
-                                 <span class="small">
-                                    <ul class="number bg-transparent ">
-                                       <li style="width: 110px;">
-                                          <span class="minus text-secondary"><b>-</b></span>
-                                          <input type="text " value="1"
-                                             class="form-control form-control-sm d-inline-block" style="width:40px;">
-                                          <span class="plus text-secondary"><b>+</b></span>
-                                       </li>
-                                    </ul>
-                                 </span>
-
-                              </td>
-                              <td>Price: ৳10</td>
-                              <td class="d-flex just"><i class="fa-solid fa-trash text-danger" style="cursor: pointer;"></i></td>
-                           </tr>
-                        </tbody>
+               <div class="cart-table">
+                     <table class="table">
+                         <tbody class="text-center align-middle">
+                             <tr>
+                                 <th scope="row">
+                                     <img style="width: 100px;" src="assets/images/cart/cart1.png" alt="Cart">
+                                 </th>
+                                 <td>
+                                     <h6>White Comfy Stool</h6>
+                                     <span class="rate">৳200.00 x 1</span>
+                                 </td>
+                                 <td>
+                                     <ul class="number">
+                                         <li>
+                                             <span class="minus">-</span>
+                                             <input type="text" value="1">
+                                             <span class="plus">+</span>
+                                         </li>
+                                     </ul>
+                                 </td>
+                                 <td>
+                                     <div>
+                                         <i class="bx bx-x fs-3 text-danger"></i>
+                                     </div>
+                                 </td>
+                             </tr>
+                             <tr>
+                                 <th scope="row">
+                                     <img style="width: 100px;" src="assets/images/cart/cart2.png" alt="Cart">
+                                 </th>
+                                 <td>
+                                     <h6>White Comfy Stool</h6>
+                                     <span class="rate">৳200.00 x 1</span>
+                                 </td>
+                                 <td>
+                                     <ul class="number">
+                                         <li>
+                                             <span class="minus">-</span>
+                                             <input type="text" value="1">
+                                             <span class="plus">+</span>
+                                         </li>
+                                     </ul>
+                                 </td>
+                                 <td>
+                                     <div>
+                                         <i class="bx bx-x fs-3 text-danger"></i>
+                                     </div>
+                                 </td>
+                             </tr>
+                             <tr>
+                                 <th scope="row">
+                                     <img style="width: 100px;" src="assets/images/cart/cart1.png" alt="Cart">
+                                 </th>
+                                 <td>
+                                     <h6>White Comfy Stool</h6>
+                                     <span class="rate">৳200.00 x 1</span>
+                                 </td>
+                                 <td>
+                                     <ul class="number">
+                                         <li>
+                                             <span class="minus">-</span>
+                                             <input type="text" value="1">
+                                             <span class="plus">+</span>
+                                         </li>
+                                     </ul>
+                                 </td>
+                                 <td>
+                                     <div>
+                                         <i class="bx bx-x fs-3 text-danger"></i>
+                                     </div>
+                                 </td>
+                             </tr>
+                             <tr>
+                                 <th scope="row">
+                                     <img style="width: 100px;" src="assets/images/cart/cart2.png" alt="Cart">
+                                 </th>
+                                 <td>
+                                     <h6>White Comfy Stool</h6>
+                                     <span class="rate">৳200.00 x 1</span>
+                                 </td>
+                                 <td>
+                                     <ul class="number">
+                                         <li>
+                                             <span class="minus">-</span>
+                                             <input type="text" value="1">
+                                             <span class="plus">+</span>
+                                         </li>
+                                     </ul>
+                                 </td>
+                                 <td>
+                                     <div>
+                                         <i class="bx bx-x fs-3 text-danger"></i>
+                                     </div>
+                                 </td>
+                             </tr>
+                         </tbody>
                      </table>
-                  </div>
-                  <!-- More items can be dynamically added here -->
                </div>
             </div>
             <div class=" m-4">
@@ -328,8 +320,8 @@
                   <div class="text-danger">৳7,100.00</div>
                </div>
                <div class=" d-flex justify-content-between">
-                  <button type="button" class="btn btn-secondary" style="width: 170px; height: 50px;"><b>View cart</b></button>
-                  <button type="button" class="btn btn-primary" style="width: 170px;"><b><i class="bx bx-cart-download"></i> Checkout</b></button>
+                  <a  href="viewcart.php" type="button" class="btn btn-secondary d-flex align-items-center justify-content-center" style="width: 170px; height: 50px;"><b>View cart</b></a>
+                  <a  href="checkout.php" type="button" class="btn btn-primary d-flex align-items-center justify-content-center" style="width: 170px; text-align: center;"><b><i class="bx bx-cart-download"></i> Checkout</b></a>
                </div>
             </div>
          </div>
