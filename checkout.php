@@ -22,54 +22,64 @@
 
             <div class="col-lg-7">
                <div class="checkout-billing">
-                  <div class="form-group">
-                     <input type="text" class="form-control" placeholder="Name:">
-                  </div>
-                  <div class="form-group">
-                     <input type="email" class="form-control" placeholder="Email:">
-                  </div>
-                  <div class="form-group">
-                     <input type="text" class="form-control" placeholder="Phone No:">
-                  </div>
-                  <div class="form-group">
-                     <input type="text" class="form-control" placeholder="Street*">
-                  </div>
-                  <div class="form-group">
-                     <select>
-                        <option>Town*</option>
-                        <option>Some Option</option>
-                        <option>Another Option</option>
-                        <option>Potato</option>
-                     </select>
-                  </div>
-                  <div class="form-group">
-                     <select>
-                        <option>State*</option>
-                        <option>Some Option</option>
-                        <option>Another Option</option>
-                        <option>Potato</option>
-                     </select>
-                  </div>
-                  <div class="form-group">
-                     <select>
-                        <option>Country*</option>
-                        <option>Some Option</option>
-                        <option>Another Option</option>
-                        <option>Potato</option>
-                     </select>
-                  </div>
-                  <div class="form-group">
-                     <textarea id="your-notes" rows="4" class="form-control"
-                        placeholder="Other Notes (Optional)"></textarea>
-                  </div>
-                  <div class="form-group">
-                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                           Ship To A Different Address
-                        </label>
-                     </div>
-                  </div>
+               <div class="row">
+   <div class="form-group col-lg-12">
+      <label for="fullName" class="form-label">Full Name:</label>
+      <input type="text" id="fullName" class="form-control" placeholder="Full Name:">
+   </div>
+   <div class="form-group col-lg-6">
+      <label for="phoneNo" class="form-label">Phone No:</label>
+      <input type="text" id="phoneNo" class="form-control" placeholder="Phone No:">
+   </div>
+   <div class="form-group col-lg-6">
+      <label for="email" class="form-label">Email:</label>
+      <input type="email" id="email" class="form-control" placeholder="Email:">
+   </div>
+   <div class="form-group col-lg-12">
+      <label for="address" class="form-label">Address:</label>
+      <input type="text" id="address" class="form-control" placeholder="Address*">
+   </div>
+   <div class="form-group col-lg-6">
+      <label for="division" class="form-label">Division:</label>
+      <select id="division">
+         <option>Division*</option>
+         <option>Some Option</option>
+         <option>Another Option</option>
+         <option>Potato</option>
+      </select>
+   </div>
+   <div class="form-group col-lg-6">
+      <label for="district" class="form-label">District:</label>
+      <select id="district">
+         <option>District*</option>
+         <option>Some Option</option>
+         <option>Another Option</option>
+         <option>Potato</option>
+      </select>
+   </div>
+   <div class="form-group col-lg-6">
+      <label for="country" class="form-label">Country:</label>
+      <select id="country">
+         <option>Country*</option>
+         <option>Some Option</option>
+         <option>Another Option</option>
+         <option>Potato</option>
+      </select>
+   </div>
+   <div class="form-group col-lg-12">
+      <label for="yourNotes" class="form-label">Additional Information (Optional):</label>
+      <textarea id="yourNotes" rows="4" class="form-control" placeholder="Additional information (Optional)"></textarea>
+   </div>
+   <div class="form-group col-lg-12">
+      <div class="form-check">
+         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+         <label class="form-check-label" for="flexCheckDefault">
+            Ship To A Different Address
+         </label>
+      </div>
+   </div>
+</div>
+
                   <div class="text-center">
                      <button type="submit" class="btn common-btn">
                         Place Order

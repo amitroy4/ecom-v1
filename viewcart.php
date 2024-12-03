@@ -190,8 +190,8 @@
                      <h4>Total: <span>৳395.00</span></h4>
                   </div>
                   <div class=" d-flex justify-content-end mt-4">
-                  <button type="button" class="btn btn-outline-secondary d-flex align-items-center justify-content-center" style="width: 170px; height: 50px;"><b>Update cart</b></button>
-                  <button type="button" class="btn btn-outline-primary d-flex align-items-center justify-content-center ms-4" style="width: 210px; text-align: center;"><b><i class="bx bx-cart-download"></i> Continue Shopping</b></button>
+                  <!-- <button type="button" class="btn btn-outline-secondary d-flex align-items-center justify-content-center" style="width: 170px; height: 50px;"><b>Update cart</b></button> -->
+                  <button type="button" class="btn btn-outline-primary d-flex align-items-center justify-content-center ms-4" style="width: 210px; height: 50px; text-align: center;"><b><i class="bx bx-cart-download"></i> Continue Shopping</b></button>
                </div>
                </div>
             </div>

@@ -114,7 +114,7 @@
             <nav class="navbar navbar-expand-md navbar-light justify-content-between">
                <div class="left">
                   <a href="index.php">
-                     <img src="assets/images/Logo.png" style="height: 65px!important;" alt="Logo">
+                     <img src="assets/images/logo.png" style="height: 65px!important;" alt="Logo">
                   </a>
                </div>
 

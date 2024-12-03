@@ -44,6 +44,7 @@
 
                   <div class="col-6 col-lg-6">
                      <div class="form-group">
+                        <label for="name" class="form-label">Name:</label>
                         <input type="text" name="name" id="name" class="form-control" placeholder="Name" required
                            data-error="Please enter your name">
                         <div class="help-block with-errors"></div>
@@ -52,6 +53,7 @@
 
                   <div class="col-6 col-lg-6">
                      <div class="form-group">
+                        <label for="email" class="form-label">Email:</label>
                         <input type="email" name="email" id="email" class="form-control" placeholder="Email" required
                            data-error="Please enter your email">
                         <div class="help-block with-errors"></div>
@@ -60,6 +62,7 @@
 
                   <div class="col-6 col-lg-6">
                      <div class="form-group">
+                        <label for="phone_number" class="form-label">Phone:</label>
                         <input type="text" name="phone_number" id="phone_number" placeholder="Phone" required
                            data-error="Please enter your number" class="form-control">
                         <div class="help-block with-errors"></div>
@@ -68,6 +71,7 @@
 
                   <div class="col-6 col-lg-6">
                      <div class="form-group">
+                        <label for="msg_subject" class="form-label">Subject:</label>
                         <input type="text" name="msg_subject" id="msg_subject" class="form-control"
                            placeholder="Subject" required data-error="Please enter your subject">
                         <div class="help-block with-errors"></div>
@@ -76,11 +80,13 @@
 
                   <div class="col-lg-12">
                      <div class="form-group">
+                        <label for="message" class="form-label">Message:</label>
                         <textarea name="message" class="form-control" id="message" cols="30" rows="8"
                            placeholder="Write message" required data-error="Write your message"></textarea>
                         <div class="help-block with-errors"></div>
                      </div>
                   </div>
+
 
                   <div class="col-lg-12">
                      <div class="form-group">

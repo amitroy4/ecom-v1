@@ -158,7 +158,7 @@
                                     <h3>
                                         <a href="product-details.php">Red AKG Headphones</a>
                                     </h3>
-                                    <span>$200.00</span>
+                                    <span>৳200.00</span>
                                 </div>
                             </div>
                             <div class="bottom">
@@ -179,7 +179,7 @@
                                     <h3>
                                         <a href="product-details.php">Corsair Gaming Keyboard</a>
                                     </h3>
-                                    <span>$180.00</span>
+                                    <span>৳180.00</span>
                                 </div>
                             </div>
                             <div class="bottom">
@@ -200,7 +200,7 @@
                                     <h3>
                                         <a href="product-details.php">Apple MacBook Air 13.3-Inch</a>
                                     </h3>
-                                    <span>$170.00</span>
+                                    <span>৳170.00</span>
                                 </div>
                             </div>
                             <div class="bottom">
@@ -221,7 +221,7 @@
                                     <h3>
                                         <a href="product-details.php">Apple iMac 27", Core i5</a>
                                     </h3>
-                                    <span>$190.00</span>
+                                    <span>৳190.00</span>
                                 </div>
                             </div>
                             <div class="bottom">
@@ -242,7 +242,7 @@
                                     <h3>
                                         <a href="product-details.php">Canon EF-S 18-55mm Lens</a>
                                     </h3>
-                                    <span>$160.00</span>
+                                    <span>৳160.00</span>
                                 </div>
                             </div>
                             <div class="bottom">
@@ -263,7 +263,7 @@
                                     <h3>
                                         <a href="product-details.php">A4 Tech Bloody G520S</a>
                                     </h3>
-                                    <span>$120.00</span>
+                                    <span>৳120.00</span>
                                 </div>
                             </div>
                             <div class="bottom">
@@ -284,7 +284,7 @@
                                     <h3>
                                         <a href="product-details.php">Havit AM100 Microphone</a>
                                     </h3>
-                                    <span>$250.00</span>
+                                    <span>৳250.00</span>
                                 </div>
                             </div>
                             <div class="bottom">
@@ -305,7 +305,7 @@
                                     <h3>
                                         <a href="product-details.php">Canon Eos 4000D Camera</a>
                                     </h3>
-                                    <span>$210.00</span>
+                                    <span>৳210.00</span>
                                 </div>
                             </div>
                             <div class="bottom">
@@ -349,9 +349,9 @@
                      <h2>Shop By Style And Shapes</h2>
                      <p>Erat pellentesque adipiscing commodo elit at imperdiet.</p>
                      <ul>
-                        <li>$160.00</li>
+                        <li>৳160.00</li>
                         <li>
-                           <del>$200.00</del>
+                           <del>৳200.00</del>
                         </li>
                      </ul>
                      <a class="common-btn custom-btn-1" href="shop.html">
@@ -472,7 +472,7 @@
                                  <h3>
                                     <a href="product-details.php">TOMFORD A2281 Mastercopy</a>
                                  </h3>
-                                 <span>$200.00</span>
+                                 <span>৳200.00</span>
                               </div>
                            </div>
                            <div class="bottom">
@@ -492,7 +492,7 @@
                                  <h3>
                                     <a href="product-details.php">Z Charment Square</a>
                                  </h3>
-                                 <span>$180.00</span>
+                                 <span>৳180.00</span>
                               </div>
                            </div>
                            <div class="bottom">
@@ -512,7 +512,7 @@
                                  <h3>
                                     <a href="product-details.php">Dior Acetate Sunglasses</a>
                                  </h3>
-                                 <span>$170.00</span>
+                                 <span>৳170.00</span>
                               </div>
                            </div>
                            <div class="bottom">
@@ -532,7 +532,7 @@
                                  <h3>
                                     <a href="product-details.php">Burberry Acetate Catseye</a>
                                  </h3>
-                                 <span>$190.00</span>
+                                 <span>৳190.00</span>
                               </div>
                            </div>
                            <div class="bottom">
@@ -552,7 +552,7 @@
                                  <h3>
                                     <a href="product-details.php">PRADA Oversized Sunglasses</a>
                                  </h3>
-                                 <span>$160.00</span>
+                                 <span>৳160.00</span>
                               </div>
                            </div>
                            <div class="bottom">
@@ -572,7 +572,7 @@
                                  <h3>
                                     <a href="product-details.php">Louis Vuiton Sunglasses</a>
                                  </h3>
-                                 <span>$120.00</span>
+                                 <span>৳120.00</span>
                               </div>
                            </div>
                            <div class="bottom">

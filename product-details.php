@@ -618,7 +618,7 @@
    <div class="container">
       <!-- Modal -->
       <div class="modal fade" id="chartModal" tabindex="-1" aria-labelledby="chartModalLabel" aria-hidden="true">
-         <div class="modal-dialog modal-lg modal-dialog-centered">
+         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                <div class="modal-header">
                   <h1 class="modal-title fs-5" id="chartModalLabel">Chart</h1>
@@ -631,7 +631,7 @@
                         <img src="assets/images/p4.avif" alt="Image" style="width: 170px;">
                      </div>
                      <div class="col-8 d-flex flex-column justify-content-center">
-                        <h4>White Comfy Stool</h4>
+                        <p class="mb-0 fs-3 fw-bold">White Comfy Stool</p>
                         <p class="mb-0 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <div class="pt-0 pb-1">
                            <span class="text-primary fs-4">৳400.00</span>
