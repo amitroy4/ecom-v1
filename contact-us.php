@@ -3,7 +3,7 @@
    ?>
 
 <!-- Page Title -->
-<div class="page-title-area">
+<!-- <div class="page-title-area">
    <div class="d-table">
       <div class="d-table-cell">
          <div class="container">
@@ -27,11 +27,11 @@
       <img src="assets/images/shape17.png" alt="Shape">
       <img src="assets/images/shape18.png" alt="Shape">
    </div>
-</div>
+</div> -->
 <!-- End Page Title -->
 
 <!-- Contact -->
-<div class="contact-area pt-100 pb-70">
+<div class="contact-area" style="padding-top: 150px; padding-bottom: 100px">
    <div class="container">
       <div class="section-title">
          <h2>Get In Touch</h2>

@@ -247,7 +247,7 @@
 
 <!-- for cart -->
 <script>
-   $(document).ready(function () {
+$(document).ready(function () {
     // When the modal is about to show
     $('#cartModal').on('show.bs.modal', function () {
         // Slide in from the right
@@ -265,6 +265,26 @@
 
     // When the modal is being hidden
     $('#cartModal').on('hide.bs.modal', function () {
+        // Slide out to the right
+        $(this).find('.modal-dialog').css('transform', 'translateX(100%)');
+    });
+    // When the modal is about to show
+    $('#wishlistModal').on('show.bs.modal', function () {
+        // Slide in from the right
+        $(this).find('.modal-dialog').css({
+            'transform': 'translateX(100%)',
+            'transition': 'transform 0.1s ease-out'
+        });
+    });
+
+    // When the modal is fully shown
+    $('#wishlistModal').on('shown.bs.modal', function () {
+        // Reset the transform to bring it to its original position
+        $(this).find('.modal-dialog').css('transform', 'translateX(0)');
+    });
+
+    // When the modal is being hidden
+    $('#wishlistModal').on('hide.bs.modal', function () {
         // Slide out to the right
         $(this).find('.modal-dialog').css('transform', 'translateX(100%)');
     });

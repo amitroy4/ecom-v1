@@ -12,7 +12,7 @@
    }
 </style>
 <!-- Checkout -->
-<div class="checkout-area pt-100 pb-70">
+<div class="checkout-area" style="padding-top: 150px; padding-bottom: 100px">
    <div class="container">
       <div class="section-title">
          <h2><i class="bx bxs-cart"></i> Cart</h2>
