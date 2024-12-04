@@ -37,7 +37,7 @@
                         <h3>Quick Links</h3>
                         <ul>
                            <li>
-                              <a href="single-product.html">About Us</a>
+                              <a href="about-us.php">About Us</a>
                            </li>
                            <li>
                               <a href="return-policy.html">Return Policy</a>
@@ -49,10 +49,10 @@
                               <a href="privacy-policy.html">Terms & Conditions</a>
                            </li>
                            <li>
-                              <a href="faq.html">FAQ</a>
+                              <a href="faq.php">FAQ</a>
                            </li>
                            <li>
-                              <a href="contact.html">Contact Us</a>
+                              <a href="contact-us.php">Contact Us</a>
                            </li>
                         </ul>
                      </div>
@@ -64,13 +64,13 @@
                         <h3>My Accounts</h3>
                         <ul>
                            <li>
-                              <a href="return-policy.html">View Cart</a>
+                              <a href="viewcart.php">View Cart</a>
                            </li>
                            <li>
                               <a href="faq.html">My Wishlist</a>
                            </li>
                            <li>
-                              <a href="single-product.html">Order Tracking</a>
+                              <a href="order-tracking.php">Order Tracking</a>
                            </li>
                            <li>
                               <a href="order-tracking.html">My Account</a>
@@ -88,19 +88,19 @@
                               <a href="return-policy.html">Return Policy</a>
                            </li>
                            <li>
-                              <a href="faq.html">FAQ</a>
+                              <a href="faq.php">FAQ</a>
                            </li>
                            <li>
                               <a href="single-product.html">Single Product</a>
                            </li>
                            <li>
-                              <a href="order-tracking.html">Order Tracking</a>
+                              <a href="order-tracking.php">Order Tracking</a>
                            </li>
                            <li>
                               <a href="privacy-policy.html">Privacy Policy</a>
                            </li>
                            <li>
-                              <a href="contact.html">Contact Us</a>
+                              <a href="contact-us.php">Contact Us</a>
                            </li>
                         </ul>
                      </div>

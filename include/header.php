@@ -43,6 +43,15 @@
 </head>
 
 <body cz-shortcut-listen="true" style="" class="">
+
+<style>
+   .bx-x:hover{
+      color: red !important;
+      cursor: pointer;
+      transform: scale(1.2); /* Slightly enlarge the icon */
+      transition: transform 0.3s ease;
+   }
+</style>
    <!-- Preloader -->
    <!--<div class="loader" style="display: none;">-->
    <!--   <div class="d-table">-->
@@ -57,6 +66,8 @@
    <!--</div>-->
    <!-- End Preloader -->
    <!-- TOP Header Start -->
+
+
    <div class="header-area">
       <div class="container-fluid">
          <div class="row align-items-center">

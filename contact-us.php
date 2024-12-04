@@ -120,17 +120,17 @@
                <h3>Contact Information:</h3>
                <ul class="info">
                   <li>
-                     <i class="flaticon-pin"></i>
+                     <i class="bx bx-map"></i>
                      <a href="#">2750 Quadra Street, Victoria, Canada</a>
                      <a href="#">345-659 Birmingham Street, England</a>
                   </li>
                   <li>
-                     <i class="flaticon-phone-call"></i>
+                     <i class="bx bx-phone"></i>
                      <a href="tel:9908314326">+990-831-4326</a>
                      <a href="tel:5465486325">+546-548-6325</a>
                   </li>
                   <li>
-                     <i class="flaticon-email"></i>
+                     <i class="bx bx-mail-send"></i>
                      <a href="/cdn-cgi/l/email-protection#8ae2efe6e6e5caefe9e5faa4e9e5e7"><span class="__cf_email__"
                            data-cfemail="d3bbb6bfbfbc93b6b0bca3fdb0bcbe">[email&#160;protected]</span></a>
                      <a href="/cdn-cgi/l/email-protection#1f767179705f7a7c706f317c7072"><span class="__cf_email__"
@@ -178,7 +178,7 @@
 <div class="map-area pb-100">
    <div class="container">
       <iframe id="map"
-         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59843174.53779285!2d62.17507173408571!3d23.728204508550363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3663f18a24cbe857%3A0xa9416bfcd3a0f459!2sAsia!5e0!3m2!1sen!2sbd!4v1608484692696!5m2!1sen!2sbd"
+         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4493.815144455011!2d90.41813827602283!3d23.743226989050406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b998ed9235f1%3A0xedb5992f595ad41f!2sQbit%20Tech!5e1!3m2!1sen!2sbd!4v1733288326022!5m2!1sen!2sbd"
          allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
    </div>
 </div>

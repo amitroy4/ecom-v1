@@ -632,7 +632,7 @@
                      </div>
                      <div class="col-8 d-flex flex-column justify-content-center">
                         <p class="mb-0 fs-3 fw-bold">White Comfy Stool</p>
-                        <p class="mb-0 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="mb-0 p-0 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <div class="pt-0 pb-1">
                            <span class="text-primary fs-4">৳400.00</span>
                            <span class="ps-2 text-secondary-emphasis"><del>৳600.00</del></span>
