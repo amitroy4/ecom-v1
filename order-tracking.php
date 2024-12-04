@@ -113,77 +113,106 @@
     }
 </style>
 <div class="order-tracking-area">
-<div class="container pb-4">
-    <div class="card">
-        <div class="tracking-header bg-secondary text-white">
-            <strong>TRACKING ORDER NO - 001698653lp</strong>
-        </div>
-        <div class="card-body">
-            <div class="row mb-3">
-                <div class="col-md-4">
-                    <strong>Shipped Via:</strong> UPS Ground
+    <div class="container pb-4">
+        <div class="card">
+            <div class="tracking-header bg-secondary text-white">
+                <strong>TRACKING ORDER NO - 001698653lp</strong>
+            </div>
+            <div class="card-body">
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <strong>Shipped Via:</strong> UPS Ground
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <strong>Status:</strong> Checking Quality
+                    </div>
+                    <div class="col-md-4 text-end">
+                        <strong>Expected Date:</strong> SEP 09, 2017
+                    </div>
                 </div>
-                <div class="col-md-4 text-center">
-                    <strong>Status:</strong> Checking Quality
+                <div class="d-flex align-items-center">
+                    <div class="step">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <p class="step-label">Confirmed Order</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                        <p class="step-label">Processing Order</p>
+                        <div class="step-line-container">
+                            <div class="step-line"></div>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-medal"></i>
+                        </div>
+                        <p class="step-label">Quality Check</p>
+                        <div class="step-line-container">
+                            <div class="step-line"></div>
+                        </div>
+                    </div>
+                    <div class="step disabled">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-truck"></i>
+                        </div>
+                        <p class="step-label">Product Dispatched</p>
+                        <div class="step-line-container">
+                            <div class="step-line"></div>
+                        </div>
+                    </div>
+                    <div class="step disabled">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                        <p class="step-label">Product Delivered</p>
+                        <div class="step-line-container">
+                            <div class="step-line"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4 text-end">
-                    <strong>Expected Date:</strong> SEP 09, 2017
+                <div class="form-check mt-3">
+                    <input type="checkbox" class="form-check-input" id="notifyMe">
+                    <label class="form-check-label" for="notifyMe">Notify me when order is delivered</label>
+                </div>
+                <!-- Product Row -->
+            <div class="row align-items-center border-bottom pb-3 mb-3 pt-5">
+                <!-- Product Image -->
+                <div class="col-md-2 d-flex align-items-center justify-content-center">
+                    <img src="assets/images/cart/cart2.png" alt="Product Image" class="img-fluid rounded" style="width: 120px;">
+                </div>
+
+                <!-- Product Details -->
+                <div class="col-md-5">
+                    <p class="fw-bold mb-0">White Comfy Stool</p>
+                    <p class="text-muted mb-0">0.3963 Gal. Black Plastic Watering Can</p>
+                    <button class="btn btn-outline-secondary btn-sm mt-3">Buy Again</button>
+                    <span class="ms-3">
+                        <a href="#" class="text-decoration-none me-3 text-primary">Info & Guides</a>
+                        <a href="#" class="text-decoration-none text-primary">Write A Review</a>
+                    </span>
+                </div>
+
+                <!-- Quantity -->
+                <div class="col-md-2 text-end">
+                    <p class="text-muted mb-0">Qty: 1</p>
+                </div>
+
+                <!-- Price -->
+                <div class="col-md-2 text-end">
+                    <p class="fw-bold mb-0">$2.97</p>
                 </div>
             </div>
-            <div class="d-flex align-items-center">
-                <div class="step">
-                    <div class="step-icon">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                    <p class="step-label">Confirmed Order</p>
+                <div class="text-end mt-3">
+                    <button class="common-btn">View Order Details</button>
                 </div>
-                <div class="step">
-                    <div class="step-icon">
-                        <i class="fa-solid fa-gear"></i>
-                    </div>
-                    <p class="step-label">Processing Order</p>
-                    <div class="step-line-container">
-                        <div class="step-line"></div>
-                    </div>
-                </div>
-                <div class="step">
-                    <div class="step-icon">
-                        <i class="fa-solid fa-medal"></i>
-                    </div>
-                    <p class="step-label">Quality Check</p>
-                    <div class="step-line-container">
-                        <div class="step-line"></div>
-                    </div>
-                </div>
-                <div class="step disabled">
-                    <div class="step-icon">
-                        <i class="fa-solid fa-truck"></i>
-                    </div>
-                    <p class="step-label">Product Dispatched</p>
-                    <div class="step-line-container">
-                        <div class="step-line"></div>
-                    </div>
-                </div>
-                <div class="step disabled">
-                    <div class="step-icon">
-                        <i class="fa-solid fa-house"></i>
-                    </div>
-                    <p class="step-label">Product Delivered</p>
-                    <div class="step-line-container">
-                        <div class="step-line"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="form-check mt-3">
-                <input type="checkbox" class="form-check-input" id="notifyMe">
-                <label class="form-check-label" for="notifyMe">Notify me when order is delivered</label>
-            </div>
-            <div class="text-end mt-3">
-                <button class="common-btn">View Order Details</button>
             </div>
         </div>
     </div>
-</div>
+
 </div>
 <!-- End Tracking  -->
 
